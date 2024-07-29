@@ -1,0 +1,1 @@
+18:17:32 - ERR - getRecords - (InvalidTextRepresentation("la sintaxis de entrada no es válida para tipo integer: «cre01»\nLINE 1: ... count(*) as valor FROM segu_user WHERE user_id = 'cre01' AN...\n                                                             ^\n"),)

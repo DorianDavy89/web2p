@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+}
+
+.container-vtInfrorme {
+    background-color: #00202e;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header-vtInforme h1 {
+    text-align: left;
+    margin-top: 40px;
+    color: #ffa600;
+}
+
+.header-sub h2 {
+    font-size: 30px;
+    color: #ffd380;
+    font-weight: bold;
+}
+
+
+.header-vtInforme .icon-salir {
+    text-align: right;
+    margin-top: -45px;
+}
+
+.icono-nombre {
+    margin-left: 5px;
+    margin-top: -100px;
+}
+
+.icono-tel {
+    margin-left: 900px;
+    margin-top: -60px;
+}
+
+.datos-iz {
+    margin-right: 400px;
+}
+
+.datos-der {
+    margin-left: 300px;
+    margin-top: -300px;
+}
+
+.comentario {
+    margin-left: 61px;
+}
+
+.logo-cabecera img {
+    border: 10px solid #8a508f;
+    border-radius: 30%;
+    width: 12%;
+}
+
+.logo-cabecera {
+    margin-top: -50px;
+}
+
+.lado-der {
+    margin-left: 320px;
+    margin-top: -228px;
+}
+
+.modal-config {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones-formconfig {
+    display: flex;
+    gap: 30px;
+    margin-left: 180px;
+}
+
+
+.botones-formconfig Button {
+    transition: all 0.50s;
+}
+
+.botones-formconfig Button:hover {
+    transform: scale(1.5);
+}
+
+.botones-hoja {
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.botones-hoja Button {
+    transition: all 0.50s;
+}
+
+.botones-hoja Button:hover {
+    transform: scale(1.5);
+}
+
+.cabecera-hoja{
+    color: #00202e;
+}
+
+.boton-buzon {
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.boton-buzon Button {
+    transition: all 0.50s;
+}
+
+.boton-buzon Button:hover {
+    transform: scale(1.5);
+}
+
+.boton-respuesta {
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.boton-respuesta Button {
+    transition: all 0.50s;
+}
+
+.boton-respuesta Button:hover {
+    transform: scale(1.5);
+}
+
+.botones-eliminar {
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.botones-eliminar Button {
+    transition: all 0.50s;
+}
+
+.botones-eliminar Button:hover {
+    transform: scale(1.5);
+}
+
+.icono-perfil{
+    margin-left: 500px;
+    margin-top: -60px;
+}
+
+.icono-perfil{
+    transition: all 0.50s;
+}
+
+.icono-perfil:hover {
+    transform: scale(1.5);
+}
+
+.cabecera-config{
+    color: #ffa600;
+}
+
+.identificador{
+    margin-left: 220px;
+    margin-top: -60px;
+}
+
+.cabecera-hoja{
+    color: #ffa600;
+}
+
+.contenido-tabla {
+    max-height: 334px;
+    overflow-y: auto;
+    border-radius: 20px;
+}

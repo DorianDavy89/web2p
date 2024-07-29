@@ -1,0 +1,27 @@
+version: '3.9'
+services:
+  backend:
+    container_name: api_web2p
+    image: 'api_web2p'
+    restart: always
+    ports:
+      - '9002:5000'
+    volumes:
+      - c:/JCCR/data/LOGS/dawa_ws:/app/api_web2p/src/utils/general/LOGS
+    networks:
+      - dawa_networks
+
+  frontend:
+    container_name: app_web2p
+    image: 'app_web2p'
+    restart: always
+    ports:
+      - '9003:3000'
+    volumes:
+      - c:/JCCR/data/LOGS/dawa_ws:/app/app_web2p/src/utils/general/LOGS
+    networks:
+      - dawa_networks
+
+networks:
+  dawa_networks:
+    driver: bridge

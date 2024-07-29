@@ -1,0 +1,3 @@
+12:06:05 - ERR - getRecords - (UndefinedTable('no existe la relación «dawa.tb_user»\nLINE 1: SELECT * FROM dawa.tb_user WHERE user_state = true\n                      ^\n'),)
+16:48:25 - ERR - getRecords - (UndefinedTable('no existe la relación «dawa.tb_user»\nLINE 1: SELECT * FROM dawa.tb_user WHERE user_state = true\n                      ^\n'),)
+16:48:42 - ERR - getRecords - (UndefinedTable('no existe la relación «dawa.tb_user»\nLINE 1: SELECT * FROM dawa.tb_user WHERE user_state = true\n                      ^\n'),)

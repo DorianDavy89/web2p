@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+}
+
+.container-vntLogin {
+    background-color: #00202e;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera-login h1 {
+    color: #ffa600;
+    font-size: 40px;
+    font-family: 'Righteous';
+    margin-top: 50px;
+}
+
+.logo-empresa img {
+    margin-top: 40px;
+    border: 10px solid #8a508f;
+    display: block;
+    width: 55%;
+    margin: auto;
+    border-radius: 30%;
+}
+
+.saludo {
+    color: #ffd380;
+    font-family: 'Righteous';
+}
+
+.login-izq {
+    border: 2px solid #2c4875;
+    background-color: #003f5c;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    border-radius: 40px 80px 80px 40px;
+    margin-left: 100px;
+}
+
+.login-der {
+    border: 2px solid #2c4875;
+    background-color: #003f5c;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    margin-left: 550px;
+    margin-top: -470.2px;
+    height: 450px;
+    border-radius: 80px 40px 40px 80px;
+}
+
+.registro-der{
+    margin-left: 300px;
+    margin-top: -150px;
+}
+
+.cabecera-registro{
+    margin-left: 200px;
+}
+
+.cabecera-singin {
+    color: #ffd380;
+    margin-top: 20px;
+}
+
+.subtitulo {
+    color: #ffd380;
+
+}
+
+.iconos-singin {
+    margin: 20px 20px;
+}
+
+.boton-singin {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.boton-singin Button {
+    transition: all 0.50s;
+}
+
+.boton-singin Button:hover {
+    transform: scale(1.5);
+}
+
+.botones-formnuevo {
+    display: flex;
+    gap: 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.botones-formnuevo Button {
+    transition: all 0.50s;
+}
+
+.botones-formnuevo Button:hover {
+    transform: scale(1.5);
+}
+
+.cabecera-registro h2 {
+    color: #ffd380;
+    text-align: left;
+    font-weight: bold;
+  }

@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  frontend:
+    container_name: frontend
+    image: 'app_web2p'
+    restart: always
+    ports:
+      - '9003:3000'
+    volumes:
+      - c:/JCCR/data/LOGS/dawa_ws:/app/app_web2p/src/utils/general/LOGS
